@@ -80,7 +80,7 @@ static const CGFloat gradientDimAlpha = 0.5;
         _slider.frame = sliderFrame;
         _slider.center = ctr;
         _slider.backgroundColor = [UIColor clearColor];
-        UIImage *thumbImage = [self thumbWithColor:[UIColor colorWithRed:200.0/255.0 green:200.0/255.0 blue:200.0/255.0 alpha:1.0]];
+        UIImage *thumbImage = [UIImage imageNamed:@"SliderBillie"];
         [_slider setThumbImage:thumbImage forState:UIControlStateNormal];
 
         UIImage *clearImage = [self clearPixel];
