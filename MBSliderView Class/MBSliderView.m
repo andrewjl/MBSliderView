@@ -66,6 +66,8 @@ static const CGFloat gradientDimAlpha = 0.5;
         _label.textAlignment = UITextAlignmentCenter;
         _label.backgroundColor = [UIColor clearColor];
         _label.font = [UIFont systemFontOfSize:24];
+        _label.adjustsFontSizeToFitWidth = YES;
+        _label.minimumScaleFactor = 0.5;
         _label.text = @"Slide";
         [self addSubview:_label];
         _label.animated = YES;
